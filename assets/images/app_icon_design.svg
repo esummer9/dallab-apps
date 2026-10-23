@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E88E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1565C0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 배경: 둥근 사각형 -->
+  <rect width="512" height="512" rx="100" fill="url(#grad)"/>
+  
+  <!-- 저항기 몸체 와이어 -->
+  <rect x="80" y="244" width="352" height="24" rx="12" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- 저항기 본체 (Pill shape) -->
+  <rect x="156" y="186" width="200" height="140" rx="50" fill="#FFFFFF"/>
+  
+  <!-- 색띠 (Color Bands) -->
+  <!-- 첫번째: 빨강 (값) -->
+  <rect x="195" y="186" width="22" height="140" fill="#F44336"/>
+  <!-- 두번째: 노랑 (값) -->
+  <rect x="245" y="186" width="22" height="140" fill="#FFC107"/>
+  <!-- 세번째: 초록 (승수) -->
+  <rect x="295" y="186" width="22" height="140" fill="#4CAF50"/>
+  
+  <!-- 하단 텍스트 (선택사항) -->
+  <text x="256" y="440" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="white" text-anchor="middle">OHMICS</text>
+</svg>
